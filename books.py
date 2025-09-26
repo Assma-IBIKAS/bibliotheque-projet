@@ -29,7 +29,7 @@ def affichage_d_etulisateur():
              print(tous_utilisateurs_binom)
              break
           
-affichage_d_etulisateur()        
+      
 
 dictionair={}
 aime_livres= list(d.aime_livres)
