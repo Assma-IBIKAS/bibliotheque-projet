@@ -9,7 +9,7 @@ if __name__ == "__main__":
     print("Noms en majuscules :")
     print(mjsc(majeurs))
     print()
-
+#jgjfkdkd
     # afficher les résumés
     print("Résumé par utilisateur :")
     for r in resume(majeurs):
