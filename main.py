@@ -1,7 +1,16 @@
-from users import get_majeurs
+from users import get_majeurs, mjsc,resume
 
 if __name__ == "__main__":
-    print(get_majeurs())
 
-    
-   
+    majeurs = get_majeurs()
+    print("Utilisateurs majeurs : ",majeurs)
+
+    # Afficher les noms formatés en majuscules
+    print("Noms en majuscules :")
+    print(mjsc(majeurs))
+    print()
+#jgjfkdkd
+    # afficher les résumés
+    print("Résumé par utilisateur :")
+    for r in resume(majeurs):
+        print(r)
